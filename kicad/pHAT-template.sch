@@ -51,7 +51,7 @@ U 1 1 5A524BD5
 P 2300 2100
 F 0 "J?" H 2350 3100 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 2350 1000 50  0001 C CNN
-F 2 "" H 2300 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 2300 2100 50  0001 C CNN
 F 3 "" H 2300 2100 50  0001 C CNN
 	1    2300 2100
 	1    0    0    -1  
@@ -136,4 +136,54 @@ Text Label 2100 2900 2    60   ~ 0
 BCM19
 Text Label 2100 3000 2    60   ~ 0
 BCM26
+$Comp
+L Conn_01x01 H?
+U 1 1 5A524F17
+P 6650 6900
+F 0 "H?" H 6650 7000 50  0000 C CNN
+F 1 "Conn_01x01" H 6650 6800 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 6900 50  0001 C CNN
+F 3 "" H 6650 6900 50  0001 C CNN
+	1    6650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H?
+U 1 1 5A525008
+P 6650 7100
+F 0 "H?" H 6650 7200 50  0000 C CNN
+F 1 "Conn_01x01" H 6650 7000 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 7100 50  0001 C CNN
+F 3 "" H 6650 7100 50  0001 C CNN
+	1    6650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H?
+U 1 1 5A525029
+P 6650 7300
+F 0 "H?" H 6650 7400 50  0000 C CNN
+F 1 "Conn_01x01" H 6650 7200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 7300 50  0001 C CNN
+F 3 "" H 6650 7300 50  0001 C CNN
+	1    6650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H?
+U 1 1 5A525049
+P 6650 7500
+F 0 "H?" H 6650 7600 50  0000 C CNN
+F 1 "Conn_01x01" H 6650 7400 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 7500 50  0001 C CNN
+F 3 "" H 6650 7500 50  0001 C CNN
+	1    6650 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 6900
+NoConn ~ 6450 7100
+NoConn ~ 6450 7300
+NoConn ~ 6450 7500
+Text Notes 6350 6850 3    60   ~ 0
+Mounting Holes
 $EndSCHEMATC
